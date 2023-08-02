@@ -3,7 +3,7 @@ import joblib
 from preprocessing_data import full_preprocessing
 
 
-PATH_MODEL = r'model\pipe_svc_lienar_c1_balanced.jb'
+PATH_MODEL = r'model/pipe_svc_lienar_c1_balanced.jb'
 
 svc_model = joblib.load(PATH_MODEL)
 
